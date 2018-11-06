@@ -18,41 +18,47 @@
     <ClInclude Include="inc\ets2-telemetry-common.hpp">
       <Filter>plugin</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\eurotrucks2\scssdk_eut2.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\eurotrucks2\scssdk_eut2.h">
       <Filter>sdk\eurotrucks2</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\eurotrucks2\scssdk_telemetry_eut2.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\eurotrucks2\scssdk_telemetry_eut2.h">
       <Filter>sdk\eurotrucks2</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\common\scssdk_telemetry_common_channels.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\common\scssdk_telemetry_common_channels.h">
       <Filter>sdk\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\common\scssdk_telemetry_common_configs.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\common\scssdk_telemetry_common_configs.h">
       <Filter>sdk\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\common\scssdk_telemetry_trailer_common_channels.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\common\scssdk_telemetry_trailer_common_channels.h">
       <Filter>sdk\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\common\scssdk_telemetry_truck_common_channels.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\common\scssdk_telemetry_truck_common_channels.h">
       <Filter>sdk\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\scssdk.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\scssdk.h">
       <Filter>sdk</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\scssdk_telemetry_event.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\scssdk_telemetry_event.h">
       <Filter>sdk</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\scssdk_telemetry.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\scssdk_telemetry.h">
       <Filter>sdk</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\scssdk_telemetry_channel.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\scssdk_telemetry_channel.h">
       <Filter>sdk</Filter>
     </ClInclude>
-    <ClInclude Include="..\scs_sdk_1_5\include\scssdk_value.h">
+    <ClInclude Include="..\scs_sdk_1_9\include\scssdk_value.h">
       <Filter>sdk</Filter>
     </ClInclude>
     <ClInclude Include="inc\scs_config_handlers.hpp">
       <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scs_sdk_1_9\include\amtrucks\scssdk_telemetry_ats.h">
+      <Filter>sdk\amtrucks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scs_sdk_1_9\include\amtrucks\scssdk_ats.h">
+      <Filter>sdk\amtrucks</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +76,9 @@
     </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{9a146ce2-59d7-47d2-bb4d-44f63e6e30ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\amtrucks">
+      <UniqueIdentifier>{25547684-0169-4a72-b8a2-7529b36720c7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

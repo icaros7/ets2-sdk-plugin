@@ -19,6 +19,8 @@
 #include "scssdk_telemetry.h"
 #include "eurotrucks2/scssdk_eut2.h"
 #include "eurotrucks2/scssdk_telemetry_eut2.h"
+#include "amtrucks/scssdk_ats.h"
+#include "amtrucks/scssdk_telemetry_ats.h"
 
 // Plug-in
 #include "ets2-telemetry-common.hpp"
@@ -103,6 +105,7 @@ SCSAPI_VOID telemetry_frame_start(const scs_event_t UNUSED(event), const void *c
             telemPtr->tel_rev2.trailerMass = 0;
             telemPtr->tel_rev3.wearTrailer = 0;
             telemPtr->tel_rev4.navigationDistance = 0.0f;
+			telemPtr->tel_rev4.nextRestStop = 0;
 
             memset(telemPtr->tel_rev2.trailerId, 0, GENERAL_STRING_SIZE);
             memset(telemPtr->tel_rev2.trailerName, 0, GENERAL_STRING_SIZE);
