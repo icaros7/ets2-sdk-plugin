@@ -7,7 +7,7 @@
 // - Shared memory map struct layout
 // - [..]
 
-#define ETS2_PLUGIN_REVID					10
+#define ETS2_PLUGIN_REVID					11
 
 #define ETS2_PLUGIN_LOGGING_ON				_DEBUG
 #define ETS2_PLUGIN_LOGGING_SHAREDMEMORY	1
