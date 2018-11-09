@@ -66,6 +66,10 @@ scsConfigHandle(CityDst);
 scsConfigHandle(CompSrc);
 scsConfigHandle(CompDst);
 
+// rev11
+scsConfigHandle(differentialRatio);
+
+
 bool handleCfg(const scs_named_value_t* info);
 
 #endif

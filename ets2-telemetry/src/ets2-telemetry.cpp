@@ -468,6 +468,9 @@ SCSAPI_RESULT scs_telemetry_init(const scs_u32_t version, const scs_telemetry_in
 	registerChannel(TRUCK_CHANNEL_navigation_time, float, telemPtr->tel_rev4.navigationTime);
 	registerChannel(TRUCK_CHANNEL_navigation_speed_limit, float, telemPtr->tel_rev4.navigationSpeedLimit);
 	
+	// rev11
+	registerChannel(TRUCK_CHANNEL_differential_radio, float, telemPtr->tel_rev11.differentialRatio);
+
 	/*
 	registerChannel_index(TRUCK_CHANNEL_wheel_rotation, float, telemPtr->tel_rev4.wheelRotation, 0);
 	registerChannel_index(TRUCK_CHANNEL_wheel_velocity, float, telemPtr->tel_rev4.wheelAngularVelocity, 0);

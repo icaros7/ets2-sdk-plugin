@@ -713,6 +713,10 @@ SCSSDK_HEADER
  */
 #define SCS_TELEMETRY_TRUCK_CHANNEL_wheel_lift_offset           "truck.wheel.lift.offset"
 
+ /**
+  */
+#define SCS_TELEMETRY_TRUCK_CHANNEL_differential_radio           "truck.differential.radio"
+
 SCSSDK_FOOTER
 
 #endif // SCSSDK_TELEMETRY_TRUCK_COMMON_CHANNELS_H

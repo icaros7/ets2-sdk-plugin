@@ -262,6 +262,10 @@ typedef struct ets2TelemetryMap_s
 		
 	} tel_rev4;
 
+	struct {
+		float  differentialRatio;
+	} tel_rev11;
+
 } ets2TelemetryMap_t;
 
 #endif
